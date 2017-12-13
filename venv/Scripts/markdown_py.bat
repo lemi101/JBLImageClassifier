@@ -1,0 +1,1 @@
+@"C:\Users\jmsrsd\AppData\Local\conda\conda\envs\tensorflow\python.exe" "C:\Users\jmsrsd\AppData\Local\conda\conda\envs\tensorflow\Scripts\markdown_py" %*
