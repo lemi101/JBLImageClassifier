@@ -2,10 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf0e521-f594-4786-b8a5-34fae2b1ca38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DataSetGenerator.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/KekuranganZn37-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/KekuranganZn38-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/KekuranganZn39-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/KekuranganZn40-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga31-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga32-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga33-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga34-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga35-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga/cendawanjelaga36-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga37-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga38-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga39-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cendawanjelaga40-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd31-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd32-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd33-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd34-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd35-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd/cvpd36-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd37-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd38-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd39-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/cvpd40-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn31-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn32-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn33-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn34-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn35-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/kekuranganzn/KekuranganZn36-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew31-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew32-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew33-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew34-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew35-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew/mildew36-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew37-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew38-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew39-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/mildew40-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat31-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat32-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat33-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat34-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat35-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat/sehat36-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat37-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat38-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat39-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Daun jeruk/sehat40-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Helper.py" afterPath="$PROJECT_DIR$/Helper.py" />
       <change beforePath="$PROJECT_DIR$/JBLImageClassifier.py" afterPath="$PROJECT_DIR$/JBLImageClassifier.py" />
-      <change beforePath="$PROJECT_DIR$/NetworkBuilder.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +64,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JBLImageClassifier.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JBLImageClassifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JBLImageClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Helper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -54,14 +104,14 @@
         <option value="$PROJECT_DIR$/venv/NetworkBuilder.py" />
         <option value="$PROJECT_DIR$/NetworkBuilder.py" />
         <option value="$PROJECT_DIR$/DataSetGenerator.py" />
-        <option value="$PROJECT_DIR$/JBLImageClassifier.py" />
         <option value="$PROJECT_DIR$/Helper.py" />
+        <option value="$PROJECT_DIR$/JBLImageClassifier.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="912" />
+    <option name="width" value="907" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
@@ -146,6 +196,7 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="1" BundledDictionary0="english.dic" Folders="0" Dictionaries="0" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -160,19 +211,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="912" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20982143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13762811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34984025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42834646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -213,7 +264,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -222,7 +275,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -231,7 +286,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -245,10 +302,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NetworkBuilder.py" />
     <entry file="file://$PROJECT_DIR$/DataSetGenerator.py" />
-    <entry file="file://$PROJECT_DIR$/JBLImageClassifier.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/315228988/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="57">
+          <caret line="3190" column="15" lean-forward="false" selection-start-line="3190" selection-start-column="4" selection-end-line="3190" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -256,8 +313,18 @@
     <entry file="file://$PROJECT_DIR$/Helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBLImageClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

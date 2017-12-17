@@ -1,19 +1,77 @@
-from PIL import Image
-import colorsys
-import sys
-import numpy
-import glob
-import cv2
 import os
 
+import imutils
+from cv2 import cv2
 
-def get_filepath():
-    return os.path.dirname(os.path.realpath(__file__))
+import Helper
+
+
+def imageBGR2FeatureVector(image, size=(32, 32)):
+    return cv2.resize(image, size).flatten()
+
+
+def imageBGR2FlatHist(image, bins=(8, 8, 8)):
+    hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+    hist = cv2.calcHist([hsv], [0, 1, 2], None, bins, [0, 180, 0, 256, 0, 256])
+
+    if imutils.is_cv2():
+        hist = cv2.normalize(hist)
+    else:
+        cv2.normalize(hist, hist)
+
+    return hist.flatten()
+
+
+def getDataset():
+    datasetFeatureVectors = {}
+    datasetHists = {}
+
+    for root, directories, filenames in os.walk(os.path.join(Helper.getMainDirectoryPath(), 'dataset')):
+        for directory in directories:
+            for datasetRoot, datasetDirectories, datasetFilenames in os.walk(os.path.join(root, directory)):
+                imageFeatureVectors = []
+                imageHists = []
+
+                for filename in datasetFilenames:
+                    imagePath = os.path.join(datasetRoot, filename)
+
+                    imageBGR = cv2.imread(imagePath)
+
+                    imageFeatureVector = imageBGR2FeatureVector(imageBGR)
+                    imageFeatureVectors.append(imageFeatureVector)
+
+                    imageHist = imageBGR2FlatHist(imageBGR)
+                    imageHists.append(imageHist)
+
+                datasetFeatureVectors.update({directory: imageFeatureVectors})
+                datasetHists.update({directory: imageHists})
+
+    return datasetFeatureVectors, datasetHists
+
+
+def classifyImageByHist(imagePath, datasetHists):
+    imageBGR = cv2.imread(imagePath)
+
+    imageFeatureVector = imageBGR2FeatureVector(imageBGR)
+    # imageHist = imageBGR2FlatHist(imageBGR)
+
+    for key, value in datasetHists.items():
+        for i in range(6):
+            imageHist = value[i]
+
+            result = cv2.compareHist(imageHist, datasetHists['sehat'][0], cv2.HISTCMP_KL_DIV)
+
+            print(str(key)  + "[" + str(i) + "]: " + str(result))
+
 
 def main():
-    print(get_filepath())
+    datasetFeatureVectors, datasetHists = getDataset()
+    print(Helper.getMainDirectoryPath())
 
-if __name__ == "__main__":
+    classifyImageByHist('C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat37-5.jpg', datasetHists)
+
+
+if __name__ == '__main__':
     main()
 
 '''
