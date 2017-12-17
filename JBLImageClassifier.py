@@ -48,28 +48,32 @@ def getDataset():
 
     return datasetFeatureVectors, datasetHists
 
-
 def classifyImageByHist(imagePath, datasetHists):
     imageBGR = cv2.imread(imagePath)
 
     imageFeatureVector = imageBGR2FeatureVector(imageBGR)
-    # imageHist = imageBGR2FlatHist(imageBGR)
+    imageHist = imageBGR2FlatHist(imageBGR)
 
     for key, value in datasetHists.items():
         for i in range(6):
-            imageHist = value[i]
+            imageHistDataset = value[i]
 
-            result = cv2.compareHist(imageHist, datasetHists['sehat'][0], cv2.HISTCMP_KL_DIV)
+            result = cv2.compareHist(imageHist, imageHistDataset, cv2.HISTCMP_KL_DIV)
 
-            print(str(key)  + "[" + str(i) + "]: " + str(result))
+            print(str(key) + "[" + str(i) + "]: " + str(result))
 
 
 def main():
     datasetFeatureVectors, datasetHists = getDataset()
-    print(Helper.getMainDirectoryPath())
+    print('Filepath : ' + Helper.getMainDirectoryPath())
+    datatest = ['cendawanjelaga37-1.jpg','cendawanjelaga38-1.jpg','cendawanjelaga39-1.jpg','cendawanjelaga40-1.jpg','cvpd37-2.jpg','cvpd38-2.jpg','cvpd39-2.jpg','cvpd40-2.jpg','KekuranganZn37-3.jpg','KekuranganZn38-3.jpg','KekuranganZn39-3.jpg','KekuranganZn40-3.jpg','mildew37-4.jpg','mildew38-4.jpg','mildew39-4.jpg','mildew40-4.jpg','sehat37-5.jpg','sehat38-5.jpg','sehat39-5.jpg','sehat40-5.jpg']
 
-    classifyImageByHist('C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat37-5.jpg', datasetHists)
-
+    for data in datatest:
+        print()
+        print(data)
+        print()
+        classifyImageByHist(str(Helper.getMainDirectoryPath())+'/dataset/'+data, datasetHists)
+        print('=================================================================')
 
 if __name__ == '__main__':
     main()
