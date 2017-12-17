@@ -1,12 +1,9 @@
 import os
 
 import imutils
-import math
 
 import numpy as np
 from cv2 import cv2
-
-from matplotlib import pyplot as plt
 
 import Helper
 
@@ -56,7 +53,6 @@ def getDataset():
 
 def classifyImageByHist(imagePath, datasetHists, showStep=False):
     imageName = os.path.basename(imagePath)
-
     imageBGR = cv2.imread(imagePath)
 
     imageFeatureVector = imageBGR2FeatureVector(imageBGR)
@@ -151,10 +147,10 @@ def main():
     datasetFeatureVectors, datasetHists = getDataset()
     print(Helper.getMainDirectoryPath())
 
-    datatest = ['C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat37-5.jpg',
-                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat38-5.jpg',
-                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat39-5.jpg',
-                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/dataset/sehat40-5.jpg']
+    datatest = ['C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/test/sehat37-5.jpg',
+                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/test/sehat38-5.jpg',
+                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/test/sehat39-5.jpg',
+                'C:/Users/jmsrsd/PycharmProjects/JBLImageClassifier/test/sehat40-5.jpg']
 
     for i in range(len(datatest)):
         classifyImageByHist(datatest[i], datasetHists,
